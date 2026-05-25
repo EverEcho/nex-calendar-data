@@ -1,0 +1,15 @@
+{
+  "names": {
+    "en": ["Lesser Cold", "Greater Cold", "Spring Begins", "Rain Water", "Insects Awaken", "Spring Equinox", "Clear and Bright", "Grain Rain", "Summer Begins", "Grain Buds", "Grain in Ear", "Summer Solstice", "Lesser Heat", "Greater Heat", "Autumn Begins", "End of Heat", "White Dew", "Autumn Equinox", "Cold Dew", "Frost Descends", "Winter Begins", "Lesser Snow", "Greater Snow", "Winter Solstice"],
+    "zh": ["小寒", "大寒", "立春", "雨水", "惊蛰", "春分", "清明", "谷雨", "立夏", "小满", "芒种", "夏至", "小暑", "大暑", "立秋", "处暑", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪", "冬至"],
+    "zh-Hant": ["小寒", "大寒", "立春", "雨水", "驚蟄", "春分", "清明", "谷雨", "立夏", "小滿", "芒種", "夏至", "小暑", "大暑", "立秋", "處署", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪", "冬至"],
+    "ja": ["小寒", "大寒", "立春", "雨水", "啓蟄", "春分", "清明", "穀雨", "立夏", "小満", "芒種", "夏至", "小暑", "大暑", "立秋", "処暑", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪", "冬至"]
+  },
+  "algorithm": {
+    "termOffsets": [5.4055, 20.12, 3.87, 18.73, 5.63, 20.646, 4.81, 20.1, 5.52, 21.04, 5.67, 21.37, 7.108, 22.83, 7.5, 23.13, 7.646, 23.042, 8.318, 23.438, 7.438, 22.36, 7.18, 21.94],
+    "yearAdjustments": [
+      { "index": 3, "year": 2026, "delta": -1 },
+      { "index": 23, "year": 2021, "delta": 1 }
+    ]
+  }
+}

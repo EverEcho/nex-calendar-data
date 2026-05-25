@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-25",
+  "description": "NexCalendar open calendar data — holidays, lunar labels, solar terms",
+  "files": {
+    "regions/cn.json": { "version": 1, "description": "China public holidays and 调休安排" },
+    "regions/jp.json": { "version": 1, "description": "Japan public holidays" },
+    "regions/us.json": { "version": 1, "description": "United States federal holidays" },
+    "lunar/labels.json": { "version": 1, "description": "Lunar calendar display labels" },
+    "lunar/solar-terms.json": { "version": 1, "description": "24 solar terms names and calculation constants" }
+  }
+}

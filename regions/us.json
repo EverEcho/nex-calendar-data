@@ -1,0 +1,59 @@
+{
+  "region": "us",
+  "fixedHolidays": [
+    { "mmdd": "0101", "names": { "en": "New Year's Day" } },
+    { "mmdd": "0619", "names": { "en": "Juneteenth" } },
+    { "mmdd": "0704", "names": { "en": "Independence Day" } },
+    { "mmdd": "1111", "names": { "en": "Veterans Day" } },
+    { "mmdd": "1225", "names": { "en": "Christmas Day" } }
+  ],
+  "rules": [
+    {
+      "type": "weekdayInRange",
+      "month": 1,
+      "weekday": 2,
+      "dayMin": 15,
+      "dayMax": 21,
+      "names": { "en": "Martin Luther King Jr. Day" }
+    },
+    {
+      "type": "weekdayInRange",
+      "month": 2,
+      "weekday": 2,
+      "dayMin": 15,
+      "dayMax": 21,
+      "names": { "en": "Presidents' Day" }
+    },
+    {
+      "type": "weekdayAfter",
+      "month": 5,
+      "weekday": 2,
+      "afterDay": 24,
+      "names": { "en": "Memorial Day" }
+    },
+    {
+      "type": "weekdayInRange",
+      "month": 9,
+      "weekday": 2,
+      "dayMin": 1,
+      "dayMax": 7,
+      "names": { "en": "Labor Day" }
+    },
+    {
+      "type": "weekdayInRange",
+      "month": 10,
+      "weekday": 2,
+      "dayMin": 8,
+      "dayMax": 14,
+      "names": { "en": "Columbus Day" }
+    },
+    {
+      "type": "weekdayInRange",
+      "month": 11,
+      "weekday": 5,
+      "dayMin": 22,
+      "dayMax": 28,
+      "names": { "en": "Thanksgiving Day" }
+    }
+  ]
+}
