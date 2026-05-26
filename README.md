@@ -1,6 +1,6 @@
 # nex-calendar-data
 
-NexCalendar 开源日历数据仓库。包含法定节假日、调休安排、农历标签、二十四节气等，供 [NexCalendar](https://github.com/nex-calendar/nex-calendar) 及其他日历应用使用。
+开源日历数据仓库。包含法定节假日、调休安排、农历标签、二十四节气等，供 **拾光旅行** 及其他日历应用使用。
 
 ## 目录结构
 
@@ -17,11 +17,18 @@ lunar/
   solar-terms.json               # 二十四节气名称与计算常数
 ```
 
+## 法律文档
+
+| 文档 | Raw 地址 |
+|------|----------|
+| 隐私政策 | `https://raw.githubusercontent.com/EverEcho/nex-calendar-data/main/privacy-policy.md` |
+
 ## 通过 GitHub Raw 访问
 
 仓库地址：[EverEcho/nex-calendar-data](https://github.com/EverEcho/nex-calendar-data)
 
 ```
+https://raw.githubusercontent.com/EverEcho/nex-calendar-data/main/privacy-policy.md
 https://raw.githubusercontent.com/EverEcho/nex-calendar-data/main/manifest.json
 https://raw.githubusercontent.com/EverEcho/nex-calendar-data/main/regions/cn/holidays.json
 https://raw.githubusercontent.com/EverEcho/nex-calendar-data/main/regions/cn/adjustments.json
@@ -30,7 +37,7 @@ https://raw.githubusercontent.com/EverEcho/nex-calendar-data/main/regions/us.jso
 https://raw.githubusercontent.com/EverEcho/nex-calendar-data/main/lunar/solar-terms.json
 ```
 
-NexCalendar 客户端启动时会从远程拉取最新数据，并缓存到本地；离线时使用内置副本。
+拾光旅行客户端启动时会从远程拉取最新数据，并缓存到本地；离线时使用内置副本。
 
 **中国数据拆分为两个文件**：节日名称与规则变化较少，可长期缓存；调休安排每年由国务院发布，单独更新 `adjustments.json` 即可，无需重下节日数据。
 
