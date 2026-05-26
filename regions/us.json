@@ -1,5 +1,6 @@
 {
   "region": "us",
+  "nameLocales": ["en"],
   "fixedHolidays": [
     { "mmdd": "0101", "names": { "en": "New Year's Day" } },
     { "mmdd": "0619", "names": { "en": "Juneteenth" } },

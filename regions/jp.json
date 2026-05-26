@@ -1,5 +1,6 @@
 {
   "region": "jp",
+  "nameLocales": ["ja", "en"],
   "fixedHolidays": [
     { "mmdd": "0101", "names": { "ja": "元日", "en": "New Year's Day" } },
     { "mmdd": "0211", "names": { "ja": "建国記念の日", "en": "National Foundation Day" } },

@@ -1,0 +1,29 @@
+{
+  "region": "cn",
+  "nameLocales": ["zh", "zh-Hant", "en", "ja"],
+  "fixedHolidays": [
+    { "mmdd": "0101", "names": { "zh": "元旦", "zh-Hant": "元旦", "en": "New Year's Day" } },
+    { "mmdd": "0501", "names": { "zh": "劳动节", "zh-Hant": "勞動節", "en": "Labor Day" } },
+    { "mmdd": "0502", "names": { "zh": "劳动节", "zh-Hant": "勞動節", "en": "Labor Day" } },
+    { "mmdd": "0601", "names": { "zh": "儿童节", "zh-Hant": "兒童節", "en": "Children's Day" } },
+    { "mmdd": "1001", "names": { "zh": "国庆节", "zh-Hant": "國慶節", "en": "National Day" } }
+  ],
+  "lunarHolidays": [
+    { "mmdd": "0101", "names": { "zh": "春节", "zh-Hant": "春節", "en": "Spring Festival" } },
+    { "mmdd": "0115", "names": { "zh": "元宵节", "zh-Hant": "元宵節", "en": "Lantern Festival" } },
+    { "mmdd": "0505", "names": { "zh": "端午节", "zh-Hant": "端午節", "en": "Dragon Boat Festival" } },
+    { "mmdd": "0707", "names": { "zh": "七夕", "zh-Hant": "七夕", "en": "Qixi Festival" } },
+    { "mmdd": "0815", "names": { "zh": "中秋节", "zh-Hant": "中秋節", "en": "Mid-Autumn Festival" } },
+    { "mmdd": "0909", "names": { "zh": "重阳节", "zh-Hant": "重陽節", "en": "Double Ninth Festival" } },
+    { "mmdd": "1208", "names": { "zh": "腊八节", "zh-Hant": "臘八節", "en": "Laba Festival" } },
+    { "mmdd": "1223", "names": { "zh": "北方小年", "zh-Hant": "北方小年", "en": "Little New Year (North)" } },
+    { "mmdd": "1224", "names": { "zh": "南方小年", "zh-Hant": "南方小年", "en": "Little New Year (South)" } }
+  ],
+  "rules": [
+    {
+      "type": "solarTerm",
+      "termIndex": 6,
+      "names": { "zh": "清明节", "zh-Hant": "清明節", "en": "Qingming Festival" }
+    }
+  ]
+}
