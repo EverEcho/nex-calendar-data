@@ -2,11 +2,15 @@
   "region": "cn",
   "nameLocales": ["zh", "zh-Hant", "en", "ja"],
   "fixedHolidays": [
-    { "mmdd": "0101", "names": { "zh": "元旦", "zh-Hant": "元旦", "en": "New Year's Day" } },
-    { "mmdd": "0501", "names": { "zh": "劳动节", "zh-Hant": "勞動節", "en": "Labor Day" } },
-    { "mmdd": "0502", "names": { "zh": "劳动节", "zh-Hant": "勞動節", "en": "Labor Day" } },
-    { "mmdd": "0601", "names": { "zh": "儿童节", "zh-Hant": "兒童節", "en": "Children's Day" } },
-    { "mmdd": "1001", "names": { "zh": "国庆节", "zh-Hant": "國慶節", "en": "National Day" } }
+    { "mmdd": "0101", "names": { "zh": "元旦", "zh-Hant": "元旦", "en": "New Year's Day", "ja": "元日" } },
+    { "mmdd": "0214", "names": { "zh": "情人节", "zh-Hant": "情人節", "en": "Valentine's Day", "ja": "バレンタインデー" } },
+    { "mmdd": "0401", "names": { "zh": "愚人节", "zh-Hant": "愚人節", "en": "April Fools' Day", "ja": "エイプリルフール" } },
+    { "mmdd": "0501", "names": { "zh": "劳动节", "zh-Hant": "勞動節", "en": "Labor Day", "ja": "メーデー" } },
+    { "mmdd": "0601", "names": { "zh": "儿童节", "zh-Hant": "兒童節", "en": "Children's Day", "ja": "こどもの日" } },
+    { "mmdd": "1001", "names": { "zh": "国庆节", "zh-Hant": "國慶節", "en": "National Day", "ja": "国慶節" } },
+    { "mmdd": "1031", "names": { "zh": "万圣节", "zh-Hant": "萬聖節", "en": "Halloween", "ja": "ハロウィン" } },
+    { "mmdd": "1224", "names": { "zh": "平安夜", "zh-Hant": "平安夜", "en": "Christmas Eve", "ja": "クリスマスイブ" } },
+    { "mmdd": "1225", "names": { "zh": "圣诞节", "zh-Hant": "聖誕節", "en": "Christmas Day", "ja": "クリスマス" } }
   ],
   "lunarHolidays": [
     { "mmdd": "0101", "names": { "zh": "春节", "zh-Hant": "春節", "en": "Spring Festival" } },
@@ -23,7 +27,31 @@
     {
       "type": "solarTerm",
       "termIndex": 6,
-      "names": { "zh": "清明节", "zh-Hant": "清明節", "en": "Qingming Festival" }
+      "names": { "zh": "清明节", "zh-Hant": "清明節", "en": "Qingming Festival", "ja": "清明節" }
+    },
+    {
+      "type": "weekdayInRange",
+      "month": 5,
+      "weekday": 1,
+      "dayMin": 8,
+      "dayMax": 14,
+      "names": { "zh": "母亲节", "zh-Hant": "母親節", "en": "Mother's Day", "ja": "母の日" }
+    },
+    {
+      "type": "weekdayInRange",
+      "month": 6,
+      "weekday": 1,
+      "dayMin": 15,
+      "dayMax": 21,
+      "names": { "zh": "父亲节", "zh-Hant": "父親節", "en": "Father's Day", "ja": "父の日" }
+    },
+    {
+      "type": "weekdayInRange",
+      "month": 11,
+      "weekday": 5,
+      "dayMin": 22,
+      "dayMax": 28,
+      "names": { "zh": "感恩节", "zh-Hant": "感恩節", "en": "Thanksgiving", "ja": "感謝祭" }
     }
   ]
 }

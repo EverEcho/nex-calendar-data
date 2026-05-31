@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-05-27",
+  "updatedAt": "2026-05-26",
   "description": "NexCalendar open calendar data — holidays, lunar labels, solar terms",
   "files": {
-    "regions/cn/holidays.json": { "version": 1, "description": "China fixed & lunar holidays, solar-term rules" },
+    "regions/cn/holidays.json": { "version": 3, "description": "China fixed & lunar holidays, solar-term rules" },
     "regions/cn/adjustments.json": { "version": 2, "description": "China 调休 schedules by year (rest/work MMDD lists)" },
     "regions/jp.json": { "version": 1, "description": "Japan public holidays" },
     "regions/us.json": { "version": 1, "description": "United States federal holidays" },
